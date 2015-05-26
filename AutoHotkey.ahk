@@ -46,6 +46,23 @@ return
 Send {Right}
 return
 
+!u::
+Send {LButton}
+return
+!o::
+Send {RButton}
+return
+
+!k:: MouseMove, 0, -100, 5, R 
+return
+!j:: MouseMove, 0, 100, 5, R 
+return
+!h:: MouseMove, -100, 0, 5, R 
+return
+!l:: MouseMove, 100, 0, 5, R 
+return
+
+
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
 

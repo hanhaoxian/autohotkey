@@ -46,20 +46,20 @@ return
 Send {Right}
 return
 
-^+u::
+#e::
 SendEvent {LButton}
 return
-^+i::
+#r::
 SendEvent {RButton}
 return
 
-^+k:: MouseMove, 0, -50, 2, R 
+^!k:: MouseMove, 0, -36, 0, R 
 return
-^+j:: MouseMove, 0, 50, 2, R 
+^!j:: MouseMove, 0, 36, 0, R 
 return
-^+h:: MouseMove, -50, 0, 2, R 
+^!h:: MouseMove, -36, 0, 0, R 
 return
-^+l:: MouseMove, 50, 0, 2, R 
+^!l:: MouseMove, 36, 0, 0, R 
 return
 
 

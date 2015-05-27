@@ -62,6 +62,10 @@ return
 ^!l:: MouseMove, 36, 0, 0, R 
 return
 
+^![:: Send { WheelUp }
+return
+^!]:: Send { WheelDown }
+return
 
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
